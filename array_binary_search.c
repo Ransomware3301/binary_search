@@ -141,8 +141,17 @@ result_t binary_search(int *arr, int dim, int elem)
 
 
     if(dim < 2){
-        res.index = 0;
-        res.found = TRUE;
+        /* Handling case where array dim == 1 */
+        if( *(arr) == elem )
+        {    
+            res.index = 0;
+            res.found = TRUE;   
+        }
+        else
+        {
+            res.index = -1;
+            res.found = FALSE;
+        }
     }
     else
     {
