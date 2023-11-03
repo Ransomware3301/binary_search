@@ -62,6 +62,8 @@ int main(int argc, char *argv[])
         else{
             printf("\n=> Value %d was not found\n\n", elem);
         }
+
+        free(arr);
     }
     else{
         printf("[in \"main()\"] - Memory allocation error\n");
