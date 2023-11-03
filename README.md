@@ -1,2 +1,2 @@
 # binary_search
-C program wrote in a boring evening as an excuse to try GitHub :)
+C program that searches for an integer element in an integer array with Binary Search Algorithm
